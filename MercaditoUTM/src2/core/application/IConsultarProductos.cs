@@ -1,0 +1,10 @@
+using System.Collections.Generic;
+using MercaditoUTM.src.core.entities;
+
+namespace MercaditoUTM.src2.core.application
+{
+    public interface IConsultarProductos
+    {
+        List<Articulo> Ejecutar();
+    }
+}
